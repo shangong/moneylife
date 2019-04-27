@@ -1,10 +1,3 @@
-/*
-  Theme Name: Rapid
-  Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -499,84 +492,66 @@ h6 {
 /* Why Section
 --------------------------------*/
 
-#why {
-  padding: 80px 0;
+#moneylife {
+  padding: 40px 0;
+  text-align: center;
 }
 
-#why .why-content {
-  padding-top: 40px;
+#moneylife .moneylife-content {
+  padding-top: 10px;
 }
 
-#why .why-content h2 {
+#moneylife .moneylife-content h2 {
   color: #413e66;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
-#why .why-content h3 {
+#moneylife .moneylife-content h3 {
   color: #696592;
   font-weight: 400;
   font-size: 22px;
   font-style: italic;
 }
 
-#why .why-content ul {
+#moneylife .moneylife-content ul {
   list-style: none;
   padding: 0;
 }
 
-#why .why-content ul li {
+#moneylife .moneylife-content ul li {
   padding-bottom: 10px;
 }
 
-#about .about-content ul li i {
+#moneylife .moneylife-content ul li i {
   font-size: 20px;
   padding-right: 4px;
   color: #1bb1dc;
 }
 
-#about .about-img {
+#moneylife .moneylife-img {
   position: relative;
 }
 
-#about .about-img img {
+#moneylife .moneylife-img img {
   width: 100%;
   border: 8px solid #fff;
   transition: .5s;
 }
 
-#about .about-img img:hover {
-  width: 100%;
-  -webkit-transform: scale(1.03);
-  transform: scale(1.03);
-}
-
-#about .about-img::before {
-  position: absolute;
-  left: -31px;
-  top: -30px;
-  width: 90%;
-  height: 92%;
-  z-index: -1;
-  content: '';
-  background-color: #ebf1fa;
-  transition: .5s;
-}
-
-#about .about-img::after {
-  position: absolute;
-  right: -31px;
-  bottom: -30px;
-  width: 90%;
-  height: 92%;
-  z-index: -1;
-  content: '';
-  background-color: #ebf1fa;
-  transition: .5s;
-}
-
 /* About Us Section
 --------------------------------*/
+
+#about {
+  padding: 30px 0 40px 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: rgba(68, 88, 144, 0.1);
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+}
 
 #about .about-content {
   padding-top: 40px;
@@ -586,13 +561,6 @@ h6 {
   color: #413e66;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-}
-
-#about .about-content h3 {
-  color: #696592;
-  font-weight: 400;
-  font-size: 22px;
-  font-style: italic;
 }
 
 #about .about-content ul {
@@ -610,126 +578,100 @@ h6 {
   color: #1bb1dc;
 }
 
-#about .about-img {
-  position: relative;
-  margin: 30px 30px 30px 30px;
-}
-
-#about .about-img img {
-  width: 100%;
-  border: 8px solid #fff;
-  transition: .5s;
-}
-
-#about .about-img img:hover {
-  width: 100%;
-  -webkit-transform: scale(1.03);
-  transform: scale(1.03);
-}
-
-#about .about-img::before {
-  position: absolute;
-  left: -31px;
-  top: -30px;
-  width: 90%;
-  height: 92%;
-  z-index: -1;
-  content: '';
-  background-color: #ebf1fa;
-  transition: .5s;
-}
-
-#about .about-img::after {
-  position: absolute;
-  right: -31px;
-  bottom: -30px;
-  width: 90%;
-  height: 92%;
-  z-index: -1;
-  content: '';
-  background-color: #ebf1fa;
-  transition: .5s;
-}
-
-/* Services Section
---------------------------------*/
-
-#services {
-  padding: 60px 0 40px 0;
-}
-
-#services .box {
-  padding: 30px;
+#about .member {
+  text-align: center;
+  margin-bottom: 20px;
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
-  margin: 0 10px 40px 10px;
-  background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-  transition: all 0.3s ease-in-out;
-  text-align: center;
 }
 
-#services .box:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+#about .member .member-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+  padding: 15px 0;
+  background: rgba(29, 28, 41, 0.6);
 }
 
-#services .icon {
-  margin: 0 auto 15px auto;
-  padding-top: 12px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
+#about .member .member-info-content {
+  transition: margin 0.2s;
+  height: 40px;
+  transition: height 0.4s;
 }
 
-#services .icon i {
-  font-size: 36px;
-  line-height: 1;
+#about .member:hover .member-info {
+  transition: 0.4s;
 }
 
-#services .title {
+#about .member:hover .member-info-content {
+  height: 80px;
+}
+
+#about .member h4 {
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 2px;
   font-size: 18px;
+  color: #fff;
 }
 
-#services .title a {
-  color: #111;
+#about .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
 }
 
-#services .box:hover .title a {
+#about .member .social {
+  margin-top: 15px;
+}
+
+#about .member .social a {
+  transition: none;
+  color: #fff;
+}
+
+#about .member .social a:hover {
   color: #1bb1dc;
 }
 
-#services .description {
-  font-size: 14px;
-  line-height: 28px;
-  margin-bottom: 0;
-  text-align: left;
+#about .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
 }
 
 /* Why Us Section
 --------------------------------*/
 
-#why-us {
+#how-it-works {
   padding: 60px 0;
 }
 
-#why-us .why-us-content .features {
+#how-it-works .how-it-works-content .features {
   margin: 0 0 15px 0;
   padding: 0;
   transition: 0.3s ease-in-out;
 }
 
-#why-us .why-us-content .features i {
+#how-it-works .how-it-works-content .features i {
   font-size: 36px;
   float: left;
 }
 
-#why-us .why-us-content .features h4 {
+#how-it-works .how-it-works-content .features h4 {
   font-size: 24px;
   font-weight: 600;
   margin-left: 56px;
@@ -737,17 +679,17 @@ h6 {
   margin-bottom: 5px;
 }
 
-#why-us .why-us-content .features p {
+#how-it-works .how-it-works-content .features p {
   font-size: 16px;
   margin-left: 56px;
   color: #555186;
 }
 
-#why-us .counters {
+#how-it-works .counters {
   padding-top: 40px;
 }
 
-#why-us .counters span {
+#how-it-works .counters span {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 48px;
@@ -755,7 +697,7 @@ h6 {
   color: #555186;
 }
 
-#why-us .counters p {
+#how-it-works .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
@@ -1010,88 +952,6 @@ h6 {
 
 #testimonials .owl-dot.active {
   background-color: #1bb1dc;
-}
-
-/* Team Section
---------------------------------*/
-
-#team {
-  padding: 60px 0;
-}
-
-#team .member {
-  text-align: center;
-  margin-bottom: 20px;
-  position: relative;
-  overflow: hidden;
-}
-
-#team .member .member-info {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  transition: 0.2s;
-  padding: 15px 0;
-  background: rgba(29, 28, 41, 0.6);
-}
-
-#team .member .member-info-content {
-  transition: margin 0.2s;
-  height: 40px;
-  transition: height 0.4s;
-}
-
-#team .member:hover .member-info {
-  transition: 0.4s;
-}
-
-#team .member:hover .member-info-content {
-  height: 80px;
-}
-
-#team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-  color: #fff;
-}
-
-#team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-  color: #fff;
-}
-
-#team .member .social {
-  margin-top: 15px;
-}
-
-#team .member .social a {
-  transition: none;
-  color: #fff;
-}
-
-#team .member .social a:hover {
-  color: #1bb1dc;
-}
-
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
 }
 
 /* Clients Section
@@ -1566,7 +1426,7 @@ h6 {
     padding: 8px 0;
   }
 
-  #why-us .why-us-content {
+  #how-it-works .how-it-works-content {
     padding-top: 30px;
   }
 
